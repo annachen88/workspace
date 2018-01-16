@@ -1,0 +1,14 @@
+package edu.fju.exam;
+
+public class Manager {
+	String name;
+	int money;
+	int add =5000;
+	public Manager(String name,int money){
+		this.name =name;
+		this.money =money;
+	}
+	public void print(){
+		System.out.println(name+" "+(money+add));
+	}
+}

@@ -1,0 +1,16 @@
+package edu.fju.exam;
+
+public class Director {
+	String name;
+	int money;
+	int add =5000;
+	int bonus;
+	public Director(String name,int money,int bonus){
+		this.name =name;
+		this.money =money;
+		this.bonus =bonus;
+	}
+	public void print(){
+		System.out.println(name+" "+(money+add)+"("+bonus+")");
+	}
+}
