@@ -12,6 +12,6 @@ public class Manager extends Employee{
 	}
 	@Override
 	public void print(){
-		System.out.println(name+"\t"+(money+add));
+		System.out.println(name+" "+(money+add));
 	}
 }

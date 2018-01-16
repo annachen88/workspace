@@ -8,6 +8,6 @@ public class Employee {
 		this.money =money;
 	}
 	public void print(){
-		System.out.println(name+"\t"+money);
+		System.out.println(name+" "+money);
 	}
 }

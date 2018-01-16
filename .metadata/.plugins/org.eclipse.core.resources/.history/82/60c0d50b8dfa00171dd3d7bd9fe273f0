@@ -13,6 +13,6 @@ public class Director extends Manager{
 	}
 	@Override
 	public void print(){
-		System.out.println(name+"\t"+(money+add)+"("+bonus+")");
+		System.out.println(name+" "+(money+add)+"("+bonus+")");
 	}
 }
